@@ -7,4 +7,5 @@ Xiaobing Liu (x645liu 20782315)
 * kotlin.jvm 1.6.10
 * Java SDK 16.0.2 (temurin)
 
-
+## This is how the APP looks like:
+![plot](./demo.png "demo")
