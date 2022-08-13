@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout-land/fragment_clicked_note.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout-land/fragment_list.xml" value="0.275" />
+        <entry key="app/src/main/res/layout-land/fragment_note.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_1.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/fragment_2.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/fragment_clicked_note.xml" value="0.2671794871794872" />
+        <entry key="app/src/main/res/layout/fragment_list.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_note.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_view_note.xml" value="0.2671794871794872" />
+        <entry key="app/src/main/res/layout/note_item.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/menu/action_menu.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.3104166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="temurin-16" project-jdk-type="JavaSDK" />
+</project>

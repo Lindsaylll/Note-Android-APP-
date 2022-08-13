@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".clicked_note">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:padding="16dp">
+        <Button
+                android:text="EDIT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/b_edit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/sp_id"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:textStyle="bold" android:textSize="24sp"
+                app:layout_constraintEnd_toStartOf="@+id/chip_imp" android:layout_marginEnd="16dp"
+        />
+        <TextView
+                android:text="TextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp" android:id="@+id/sp_body"
+                app:layout_constraintStart_toStartOf="parent"
+                android:singleLine="false" android:inputType="textMultiLine"
+                app:layout_constraintTop_toBottomOf="@+id/sp_title" android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/b_edit" app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginEnd="16dp"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/sp_title"
+                app:layout_constraintTop_toBottomOf="@+id/sp_id" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="30dp" android:textSize="20sp"
+                android:textStyle="bold" android:singleLine="true" app:layout_constraintEnd_toStartOf="@+id/b_edit"
+                android:layout_marginEnd="16dp"/>
+        <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/chip_imp"
+                app:layout_constraintEnd_toEndOf="parent" android:text="important"
+                app:chipBackgroundColor="@android:color/holo_red_dark" android:textColor="@color/white"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toTopOf="@+id/sp_title"
+                app:chipIconVisible="true" app:checkedIconVisible="true" android:visibility="invisible"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

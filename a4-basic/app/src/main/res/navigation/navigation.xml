@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation"
+            app:startDestination="@id/fragment_list">
+
+    <fragment
+            android:id="@+id/fragment_list"
+            android:name="com.example.a4_basic.FragmentList"
+            android:label="fragment1"
+            tools:layout="@layout/fragment_list">
+        <action
+                android:id="@+id/action_list_to_note"
+                app:destination="@id/fragment_note"/>
+        <action android:id="@+id/action_list_to_specific" app:destination="@id/clicked_note"/>
+    </fragment>
+    <fragment
+            android:id="@+id/fragment_note"
+            android:name="com.example.a4_basic.FragmentNote"
+            android:label="fragment2"
+            tools:layout="@layout/fragment_note">
+        <action android:id="@+id/action_fragment_note_pop" app:popUpTo="@id/fragment_note" app:popUpToInclusive="true"
+        />
+    </fragment>
+    <fragment android:id="@+id/clicked_note" android:name="com.example.a4_basic.clicked_note"
+              android:label="fragment_clicked_note" tools:layout="@layout/fragment_clicked_note">
+        <action android:id="@+id/action_view_to_edit" app:destination="@id/fragment_note"/>
+    </fragment>
+</navigation>
