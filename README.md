@@ -1,5 +1,5 @@
 # A4 Notes
-Xiaobing Liu (x645liu 20782315)
+This APP built using Android SDK, Kotlin, and MVVM. It has both landscape and portrait, support rotating.
 
 ## Setup
 * macOS 12.1 
